@@ -22,14 +22,14 @@
         ```
 - 可以先試試看能不能正常的產出csv file，那因為VirusTotal的限制關係，所以一隻Malware會需要跑30秒左右。如果csv可以正常顯示就可以先把程式先cancel掉。
 - 之後使用crontab來控制每天自動run這隻程式
-    - 在terminal 輸入 `echo $PATH` ，把這串PATH複製起來 等等要用
+    - 在terminal 輸入 `echo $PATH` (在哪個資料夾輸入command都可以)，把這串PATH複製起來 等等要用
         
         ![Untitled](./image/PATH.png)
         
     - 然後在terminal 輸入 `crontab -e` 進到編輯頁面
         - 如果沒有使用過，編輯頁面可能會要你選用nano或是vim的編輯器，就選一個自己熟悉的就好。
     - 在最底下加入 PATH = “剛剛複製的path”
-    - 然後再下一行打上
+    - 然後往下一行打上
         
         ```bash=
         05 08 * * * python /home/weiren/VTandAVclass/get_vs_report_with_avclass.py -i /home/weiren/VTandAVclass/example/ -j /home/weiren/VTandAVclass/ -o /home/weiren/VTandAVclass/ -k 47eafd0e2a1ef32ae4ff854bd09397b130e8a027ff1e803074b2e23ff4daf020
