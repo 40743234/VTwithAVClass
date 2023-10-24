@@ -43,4 +43,6 @@
         
     - 弄好之後就儲存退出。
     - 設定完crontab之後，可以用 `crontab -l` 來檢查是否有寫入成功。
+    - 如果有成功，就只需要等待自己設定的時間到了，就會自動啟動程式。
+    - 那預期的output應該會有一個avclassOutput.csv跟每一隻分析過後的malware的json檔。
     - 那要自己去看一下說Input的資料夾大概有幾個malware，一天可以跑250隻file，所以就算一下幾天後要更新crontab(程式要分析的資料夾)。
