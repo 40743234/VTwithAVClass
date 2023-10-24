@@ -1,6 +1,6 @@
 # AVClass + VirusTotal 自動化
 
-- 首先先去辦帳號申請API KEY，建立完帳號，到自己的個人頁面之後就可以看到這個API Key了。
+- 首先先去VirusTotal的網站辦帳號，申請API KEY。建立完帳號，到自己的個人頁面之後就可以看到這個API Key了。
     
     ![Untitled](./image/APIKEY.png)
     
@@ -19,11 +19,11 @@
         ```
         
 - 之後使用crontab來控制每天自動run這隻程式
-    - 在terminal 打 echo $PATH ，把這串PATH複製起來 等等要用
+    - 在terminal 輸入 `echo $PATH` ，把這串PATH複製起來 等等要用
         
         ![Untitled](./image/PATH.png)
         
-    - 然後打terminal 打 crontab -e 進到編輯頁面
+    - 然後在terminal 輸入 `crontab -e` 進到編輯頁面
     - 在最底下加入 PATH = “剛剛複製的path”
     - 然後再下一行打上
         
@@ -33,9 +33,14 @@
         
     - 代表著每天早上的8點5分，會自動啟動此程式，時間就看自己要設多少都行，
     - 所以加入的兩行會如下:
-        
+
+        ```bash=
+        PATH = /home/weiren/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/home/weiren/anaconda3/bin:/home/weiren/anaconda3/condabin:/opt/gradle/gradle-8.2.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+        05 08 * * * python3 /home/weiren/VTandAVclass/get_vs_report_with_avclass.py -i /home/weiren/VTandAVclass/example/ -j /home/weiren/VTandAVclass/json_file/ -o /home/weiren/VTandAVclass/ -k bb471ca1b828aef1fe3eed4ad30abb503b5c3af50c0beadcc5b531af824fba88 >> /home/weiren/VTandAVclass/example.py.log 2>&1
+        ```
+
         ![Untitled](./image/crontab.png)
         
     - 弄好之後就儲存退出。
     - 設定完crontab之後，可以用 `crontab -l` 來檢查是否有寫入成功。
-    - 那要自己去看一下說每個資料夾大概有幾個malware，一天可以跑250隻file，所以就算一下幾天後要更新crontab(程式要分析的資料夾)。
+    - 那要自己去看一下說Input的資料夾大概有幾個malware，一天可以跑250隻file，所以就算一下幾天後要更新crontab(程式要分析的資料夾)。
