@@ -1,4 +1,4 @@
-# AVClass + VirusTotal 自動化
+#  VirusTotal + AVClass 自動化
 
 - 首先先去VirusTotal的網站辦帳號，申請API KEY。建立完帳號，到自己的個人頁面之後就可以看到這個API Key了。
     
