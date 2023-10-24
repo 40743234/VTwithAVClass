@@ -98,5 +98,3 @@ if __name__ == "__main__":
                         sys.exit()
                     else:
                         time.sleep(30)
-            print(count)
-            count+=1
