@@ -3,9 +3,10 @@
 - 首先先去VirusTotal的網站辦帳號，申請API KEY。建立完帳號，到自己的個人頁面之後就可以看到這個API Key了。
     
     ![Untitled](./image/APIKEY.png)
-- 再來回到server，先去install avclass的套件
+- 再來回到server，先去install avclass的套件還有crontab
     ```bash=
     pip install avclass-malicialab
+    pip install crontab
     ```    
 - 而我們主要在run的python檔是  “get_vs_report_with_avclass.py”
     
@@ -20,6 +21,7 @@
         ```bash=
         get_vs_report_with_avclass.py -i /home/weiren/VTandAVclass/example/ -j /home/weiren/VTandAVclass/ -o /home/weiren/VTandAVclass/ -k 47eafd0e2a1ef32ae4ff854bd09397b130e8a027ff1e803074b2e23ff4daf020
         ```
+
 - 可以先試試看能不能正常的產出csv file，那因為VirusTotal的限制關係，所以一隻Malware會需要跑30秒左右。如果csv可以正常顯示就可以先把程式先cancel掉。
 - 之後使用crontab來控制每天自動run這隻程式
     - 在terminal 輸入 `echo $PATH` (在哪個資料夾輸入command都可以)，把這串PATH複製起來 等等要用

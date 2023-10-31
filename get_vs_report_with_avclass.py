@@ -41,7 +41,7 @@ def get_json_report(file_name,hash_value,output_dir,key):
     with open(output_dir+file_name+".json", "w") as outfile:
         json.dump(json_response, outfile)
 
-def write_csv(json_file_path,output_dir):
+def write_csv(json_file_path,file_name,output_dir):
     os.system("avclass -f " + json_file_path + " -o avclassOutput.txt")
     with open('avclassOutput.txt', 'r') as text_file, open(os.path.join(output_dir,"avclassOutput.csv"), 'a', newline='') as csv_file:
         csv_writer = csv.writer(csv_file)
@@ -51,7 +51,7 @@ def write_csv(json_file_path,output_dir):
                 if 'SINGLETON' in parts[1]:
                     parts[1] = -1
                 hash_value, family = parts
-                csv_writer.writerow([hash_value, family])
+                csv_writer.writerow([file_name, family])
 
 
 
@@ -88,7 +88,7 @@ if __name__ == "__main__":
                     file_id = upload_file(fullpath, key)
                     file_hash = get_hash(file_id, key)
                     get_json_report(f, file_hash, json_file_dir, key)
-                    write_csv(os.path.join(json_file_dir, f + '.json'), output_dir)
+                    write_csv(os.path.join(json_file_dir, f + '.json'),f, output_dir)
                     have_done = True
                     time.sleep(32)
                 except:
