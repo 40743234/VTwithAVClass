@@ -128,3 +128,93 @@ a5a3faf6f71e4f2e24f19bcb68dd6020  is been analysed
 a5a0aea0d135a92439f028ec609bec50  is been analysed
 a5a4a5e6c804f79cd77df263f8be11d0  is been analysed
 a5a2ce4abd92577b9fe90ec574de7aa0  is been analysed
+[-] Using tagging rules in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.tagging
+[-] Using taxonomy in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.taxonomy
+[-] Using expansion tags in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.expansion
+[-] Processing input file /home/weiren/VTandAVclass/json_file/a4d6e1fdd850772d485c9b8a91538060.json (vt3)
+[-] 1 reports read
+[-] Samples: 1 NoScans: 0 NoTags: 0 GroundTruth: 0
+[-] Using tagging rules in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.tagging
+[-] Using taxonomy in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.taxonomy
+[-] Using expansion tags in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.expansion
+[-] Processing input file /home/weiren/VTandAVclass/json_file/a4d7c2e9b89034e6faf77826292a3390.json (vt3)
+[-] 1 reports read
+[-] Samples: 1 NoScans: 0 NoTags: 0 GroundTruth: 0
+[-] Using tagging rules in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.tagging
+[-] Using taxonomy in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.taxonomy
+[-] Using expansion tags in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.expansion
+[-] Processing input file /home/weiren/VTandAVclass/json_file/a4d5ff6658be36fc269c880c63913780.json (vt3)
+[-] 1 reports read
+[-] Samples: 1 NoScans: 0 NoTags: 0 GroundTruth: 0
+[-] Using tagging rules in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.tagging
+[-] Using taxonomy in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.taxonomy
+[-] Using expansion tags in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.expansion
+[-] Processing input file /home/weiren/VTandAVclass/json_file/a4d5c823c85b5ac26e7cabddd9e2aec0.json (vt3)
+[-] 1 reports read
+[-] Samples: 1 NoScans: 0 NoTags: 0 GroundTruth: 0
+[-] Using tagging rules in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.tagging
+[-] Using taxonomy in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.taxonomy
+[-] Using expansion tags in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.expansion
+[-] Processing input file /home/weiren/VTandAVclass/json_file/a4d3c1ed9bf256f1828b104776765380.json (vt3)
+[-] 1 reports read
+[-] Samples: 1 NoScans: 0 NoTags: 0 GroundTruth: 0
+[-] Using tagging rules in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.tagging
+[-] Using taxonomy in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.taxonomy
+[-] Using expansion tags in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.expansion
+[-] Processing input file /home/weiren/VTandAVclass/json_file/a5a01fb8ae1c81a67d11f14021738df0.json (vt3)
+[-] 1 reports read
+[-] Samples: 1 NoScans: 0 NoTags: 0 GroundTruth: 0
+[-] Using tagging rules in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.tagging
+[-] Using taxonomy in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.taxonomy
+[-] Using expansion tags in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.expansion
+[-] Processing input file /home/weiren/VTandAVclass/json_file/a5a3faf6f71e4f2e24f19bcb68dd6020.json (vt3)
+[-] 1 reports read
+[-] Samples: 1 NoScans: 0 NoTags: 0 GroundTruth: 0
+[-] Using tagging rules in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.tagging
+[-] Using taxonomy in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.taxonomy
+[-] Using expansion tags in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.expansion
+[-] Processing input file /home/weiren/VTandAVclass/json_file/a5a0aea0d135a92439f028ec609bec50.json (vt3)
+[-] 1 reports read
+[-] Samples: 1 NoScans: 0 NoTags: 0 GroundTruth: 0
+[-] Using tagging rules in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.tagging
+[-] Using taxonomy in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.taxonomy
+[-] Using expansion tags in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.expansion
+[-] Processing input file /home/weiren/VTandAVclass/json_file/a5a4a5e6c804f79cd77df263f8be11d0.json (vt3)
+[-] 1 reports read
+[-] Samples: 1 NoScans: 0 NoTags: 0 GroundTruth: 0
+[-] Using tagging rules in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.tagging
+[-] Using taxonomy in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.taxonomy
+[-] Using expansion tags in /home/weiren/anaconda3/lib/python3.9/site-packages/avclass/data/default.expansion
+[-] Processing input file /home/weiren/VTandAVclass/json_file/a5a2ce4abd92577b9fe90ec574de7aa0.json (vt3)
+[-] 1 reports read
+[-] Samples: 1 NoScans: 0 NoTags: 0 GroundTruth: 0
+Analysing  a4d6e1fdd850772d485c9b8a91538060 ...
+Analysing  a4d7c2e9b89034e6faf77826292a3390 ...
+Analysing  a4d5ff6658be36fc269c880c63913780 ...
+Analysing  a4d5c823c85b5ac26e7cabddd9e2aec0 ...
+Analysing  a4d3c1ed9bf256f1828b104776765380 ...
+Analysing  a5a01fb8ae1c81a67d11f14021738df0 ...
+Analysing  a5a3faf6f71e4f2e24f19bcb68dd6020 ...
+Analysing  a5a0aea0d135a92439f028ec609bec50 ...
+Analysing  a5a4a5e6c804f79cd77df263f8be11d0 ...
+Analysing  a5a2ce4abd92577b9fe90ec574de7aa0 ...
+a4d6e1fdd850772d485c9b8a91538060  is been analysed
+a4d7c2e9b89034e6faf77826292a3390  is been analysed
+a4d5ff6658be36fc269c880c63913780  is been analysed
+a4d5c823c85b5ac26e7cabddd9e2aec0  is been analysed
+a4d3c1ed9bf256f1828b104776765380  is been analysed
+a5a01fb8ae1c81a67d11f14021738df0  is been analysed
+a5a3faf6f71e4f2e24f19bcb68dd6020  is been analysed
+a5a0aea0d135a92439f028ec609bec50  is been analysed
+a5a4a5e6c804f79cd77df263f8be11d0  is been analysed
+a5a2ce4abd92577b9fe90ec574de7aa0  is been analysed
+a4d6e1fdd850772d485c9b8a91538060  is been analysed
+a4d7c2e9b89034e6faf77826292a3390  is been analysed
+a4d5ff6658be36fc269c880c63913780  is been analysed
+a4d5c823c85b5ac26e7cabddd9e2aec0  is been analysed
+a4d3c1ed9bf256f1828b104776765380  is been analysed
+a5a01fb8ae1c81a67d11f14021738df0  is been analysed
+a5a3faf6f71e4f2e24f19bcb68dd6020  is been analysed
+a5a0aea0d135a92439f028ec609bec50  is been analysed
+a5a4a5e6c804f79cd77df263f8be11d0  is been analysed
+a5a2ce4abd92577b9fe90ec574de7aa0  is been analysed

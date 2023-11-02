@@ -38,7 +38,8 @@
         ```
         
     - 代表著每天早上的8點5分，會自動啟動此程式，時間就看自己要設多少都行，
-    - 所以加入的兩行會如下:
+    - 所以加入的兩行會如下: 
+        - 第二行後面的 (>> /home/weiren/VTandAVclass/example.py.log 2>&1) 只是去紀錄log資訊而已，所以可以不用加。
 
         ```bash=
         PATH = /home/weiren/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/home/weiren/anaconda3/bin:/home/weiren/anaconda3/condabin:/opt/gradle/gradle-8.2.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
